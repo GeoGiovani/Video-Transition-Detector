@@ -1,18 +1,25 @@
 ### CMPT365_Project
-Group Members:
+George Giovanis - ggiovani@sfu.ca  
+Vincent Law - vclaw@sfu.ca  
 
-George Giovanis  
-Vincent Law 
+### Application Link:
+https://infinite-harbor-16318.herokuapp.com/  
+  
+Note: the app is running on a free hosting platform, and as a result, responses can be delayed. Please allow 5-10 seconds between uploading a video and attempting to generate an STI. 
 
-### Installation
+### Project Demo:
+https://drive.google.com/open?id=1SwFahp3h07T4XYxERAQt6xF3bRz3vE6x
+
+### To install and run the application on your own computer:
+* Install Node.js and Python3
 * Install virtualenv
 * Activate environment 
 * Install dependencies 
 ```
 pip install -r requirements.txt
-```
-
-
+```  
+  
+**Feel free to email us if you run into installation issues. 
 
 ### To run back-end:
 * Activate your virtual environment in a python terminal
