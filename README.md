@@ -1,46 +1,27 @@
-### CMPT365_Project
-George Giovanis - ggiovani@sfu.ca  
-Vincent Law - vclaw@sfu.ca  
+### Video Transition Detector
+George Giovanis - georgedgiovani.dev@gmail.com  
+Vincent Law     - vclaw@sfu.ca  
+
+### Description
+For this project, we were interested in characterizing video transitions, such
+as cuts and wipes. To do this, we set out to create a "Spatio-Temporal" Image
+(STI) with video content for each frame on the y-axis vs time on the x-axis. To
+see this app in action, follow the application link below and upload a .mp4 
+video having a transition. Next, select the video, choose an STI generation 
+method, and click the "Generate STI" button. This app was created in the class 
+CMPT 365 - Multimedia Systems.
 
 ### Application Link:
 https://infinite-harbor-16318.herokuapp.com/  
   
-Note: the app is running on a free hosting platform, and as a result, responses can be delayed. Please allow 5-10 seconds between uploading a video and attempting to generate an STI. 
+Note: The app is running on a free hosting platform, and as a result, 
+responses can be delayed. Please allow 5-10 seconds between uploading a video 
+and attempting to generate an STI. 
 
 ### Project Demo:
-https://drive.google.com/open?id=1SwFahp3h07T4XYxERAQt6xF3bRz3vE6x
-
-### To install and run the application on your own computer:
-* Install Node.js and Python3
-* Install virtualenv
-* Activate environment 
-* Install dependencies 
-```
-pip install -r requirements.txt
-```  
+https://drive.google.com/file/d/109Ttkv1o96u2stWdWeqBcSsJspQwPpSa/view?usp=sharing  
   
-**Feel free to email us if you run into installation issues. 
+Note: Narration done by George Giovanis.
 
-### To run back-end:
-* Activate your virtual environment in a python terminal
-```
-$ . venv/bin/activate
-```
-On Windows
-```
-> venv\Scripts\activate
-```
-Start flask server:
-* `$ export FLASK_APP=setup.py` 
-* `$ flask run`
-
-```
- env FLASK_APP=setup.py python -m flask run
-```
-
-### To run front-end:
-open another terminal
-```
-cd client  
-npm start
-```
+### Project Report:
+https://drive.google.com/file/d/1gL5pUcGol17NG09s9uYGhlXRy-yidXX2/view?usp=sharing
